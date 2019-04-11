@@ -5,7 +5,7 @@ sleep 5
 if [ ! -d "/home/pigaming/RetroArena/roms/mame-advmame" ]; then
         echo "Advance-Mame not found. Installing version 1.4. This will take around 30min."
         sleep 10
-        sudo /home/pigaming/RetroArena-Setup/retroarena_packages.sh 101
+        sudo /home/pigaming/RetroArena-Setup/retroarena_packages.sh 201
 fi
 
 echo ""
